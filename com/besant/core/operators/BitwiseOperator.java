@@ -14,8 +14,8 @@ public class BitwiseOperator {
         // Left Shift
         System.out.println(6 << 2);
         // Signed Right Shift
-        System.out.println(6 >> 2);
+        System.out.println(-8 >> 2);//1
         // UnSigned Right Shift
-        System.out.println(-6 >>> 2);
+        System.out.println(-8 >>> 2);//0
     }
 }

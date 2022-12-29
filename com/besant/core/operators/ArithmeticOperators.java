@@ -26,7 +26,11 @@ public class ArithmeticOperators {
 		double doubleVal= 2.4d/2;
 		System.out.println(doubleVal);
 		
-		// Call by Value , Call by reference. 
+		// Call by Value , Call by reference.
+
+		short number=7;
+		int number2=1909;
+		System.out.println(number+number2);
 
 	}
 
