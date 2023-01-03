@@ -16,13 +16,28 @@ public class ArrayDemo {
 
         int value=intArray[3];
 
-        String[] strings={"Chennai", "Bangalore", "Pune"};
+
         double[] doubles={1d,34d,34.34d,343.3d};
 
         Object[] objects= {"chennai",23,true,'c',32.34d};
-        String stringVal= objects[0];
+        String stringVal= (String)objects[0];
+        int numbers= (Integer) objects[1];  // int or Integer
 
+        String[] cityList={"Chennai", "Bangalore", "Pune"};
+        // For Loop
+        for(int i=0;i<cityList.length;i++){
+           // System.out.println(strings[i]);
+        }
 
+        //0->1 -> 2 -> 3
+        // enhanced for loop for for-each loop
+        for(String city:cityList){
+            System.out.println(city);
+        }
+
+        // for-each method
+        Arrays.stream(cityList)
+                .forEach(city -> System.out.println(city));
 
 
 
