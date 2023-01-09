@@ -20,6 +20,7 @@ class Car{
     int gearPosition=0;
 
     public void changeGearPosition(int position){
+
         gearPosition=position;
     }
 }
