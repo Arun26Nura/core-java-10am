@@ -18,16 +18,10 @@ public class FunctionalInterfaceDemo {
        Predicate<Integer> numberpredicate= number -> number%2==0;
         System.out.println(numberpredicate.test(4));
 
-        Consumer<String> stringConsumer= new Consumer<String>() {
-            @Override
-            public void accept(String s) {
-                System.out.println(s);
-            }
-        };
-        Consumer<Integer> stringCons = (integer) ->  {
-            switch (integer){
-
-            }
+        Consumer<String> stringConsumer= s -> System.out.println(s);
+        Bajaj<String,String> bajaj = model -> {
+            String modelVersion= model;
+            return modelVersion;
         };
 
         //BiPredicate
