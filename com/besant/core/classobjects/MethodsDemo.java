@@ -1,7 +1,12 @@
 package com.besant.core.classobjects;
 
+import com.besant.core.access.Language;
+import com.besant.core.access.Weekdays;
+
 public class MethodsDemo {
     public static void main(String[] args) {
+        Java language= new Java();
+
         int a=10;
         int b=10;
         addition(a,b);
