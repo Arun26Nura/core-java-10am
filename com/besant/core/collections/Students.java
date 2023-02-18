@@ -34,4 +34,15 @@ public class Students{
     public boolean isPass() {
         return pass;
     }
+
+    @Override
+    public String toString() {
+        return "Students{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", marks=" + marks +
+                ", pass=" + pass +
+                '}';
+    }
 }
